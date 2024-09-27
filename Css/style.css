@@ -386,9 +386,61 @@ padding-top: 40px;
         padding: 100px 140px;
     }
 }
+@media screen and (max-width:621px) {
+    .footer{
+       background-color: var(--bg--color);
+       height: 260px;
+       padding-top: 10px;
+    }
+}
+@media screen and (max-width:443px) {
+    .footer{
+       background-color: var(--bg--color);
+       height: 290px;
+       padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:433px) {
+    .footer{
+        background-color: var(--bg--color);
+        height: 250px;
+        padding-top: 10px;
+     }
+    .foot{
+       display: grid;
+       grid-template-columns:auto ;
+    }
+    .foot img{
+       justify-self: center;
+    }
+    .address{
+        width: 100%;
+    }
+    .address h6{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:485px) {
+    .twelve-years{
+height: 260px;
+padding-top: 30px;  
+padding-left: 10px;
+padding-right: 10px;  }
+}
+
+@media screen and (max-width:423px) {
+    .twelve-years{
+height: 300px;
+padding-top: 30px;    }
+}
 
 
 
-
-
-
+@media screen and (max-width:359px) {
+    .twelve-years{
+height: 300px;
+padding-top: 30px;    }
+}
